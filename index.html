@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clipping Agent</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0a0a12; color: #e0e0f0; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 24px; }
+    .logo { font-size: 2.8rem; font-weight: 700; letter-spacing: -1px; margin-bottom: 8px; background: linear-gradient(135deg, #a060ff, #ff50a0); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .tagline { font-size: 1.1rem; color: #888; margin-bottom: 48px; text-align: center; }
+    .cards { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; max-width: 700px; }
+    .card { background: #14141f; border: 1px solid #2a2a3a; border-radius: 16px; padding: 28px 32px; flex: 1; min-width: 200px; }
+    .card h3 { font-size: 1rem; color: #a060ff; margin-bottom: 8px; }
+    .card p { font-size: 0.9rem; color: #888; line-height: 1.6; }
+    .links { margin-top: 48px; display: flex; gap: 24px; font-size: 0.875rem; }
+    .links a { color: #666; text-decoration: none; }
+    .links a:hover { color: #a060ff; }
+  </style>
+</head>
+<body>
+  <div class="logo">Clipping Agent</div>
+  <p class="tagline">Automated AI highlight clipping for live streams</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>AI-Powered Clipping</h3>
+      <p>Monitors YouTube and Kick live streams and automatically selects highlight moments using Claude AI.</p>
+    </div>
+    <div class="card">
+      <h3>Auto-Publishing</h3>
+      <p>Clips are trimmed and posted directly to TikTok via the Content Posting API — no manual steps required.</p>
+    </div>
+    <div class="card">
+      <h3>Telegram Control</h3>
+      <p>Start, stop, and manage the agent from anywhere using a simple Telegram bot interface.</p>
+    </div>
+  </div>
+
+  <div class="links">
+    <a href="/clipping-agent-site/tos.html">Terms of Service</a>
+    <a href="/clipping-agent-site/privacy.html">Privacy Policy</a>
+  </div>
+</body>
+</html>
